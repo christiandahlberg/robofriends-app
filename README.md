@@ -14,8 +14,8 @@ Please visit: TBD
 ## How to run on your own
 
 1. Clone repository
-2. npm install
-3. npm start
+2. ### `npm install`
+3. ### `npm start`
 
 ## Available scripts
 
