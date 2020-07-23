@@ -1,8 +1,23 @@
+## Robofriends
+
+This application will (when finished) pull data through <chosen API> and show a robotified version of your <friends, colleagues, followers, etc>. 
+When clicking on each card, more information will show regarding that person depending on chosen API or plattform the information was taken from.
+  
+PROJECT IS STILL UNDER DEVELOPMENT (Currently using a placeholder API to get fake people)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Website
 
-In the project directory, you can run:
+Please visit: TBD
+
+## How to run on your own
+
+1. Clone repository
+2. ### `npm install`
+3. ### `npm start`
+
+## Available scripts
 
 ### `npm start`
 
@@ -42,28 +57,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-"# robofriends-app" 
