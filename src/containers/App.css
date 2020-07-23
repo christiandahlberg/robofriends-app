@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'futuristic_armourregular';
+    src: url('futuristic_armour-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+	font-family: 'futuristic_armourregular';
+	font-weight: 700;
+	color: white;
+	letter-spacing: 0.1em;
+
+
+}
