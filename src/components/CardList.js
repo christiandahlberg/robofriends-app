@@ -11,8 +11,8 @@ const CardList = ({ robots }) => {
 						<Card 
 							key={robots[i].id} 
 							id={robots[i].id} 
-							name={robots[i].name} 
-							email={robots[i].email}
+							login={robots[i].login} 
+							html_url={robots[i].html_url}
 						/>
 					);
 				})

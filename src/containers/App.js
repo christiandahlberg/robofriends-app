@@ -5,9 +5,6 @@ import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
 import './App.css';
 
-// TODO: Build Django REST API to get 'robots' (or whatever)
-// TODO: CRUD
-
 class App extends React.Component {
 	constructor() {
 		super()
@@ -19,7 +16,7 @@ class App extends React.Component {
 
 	// API
 	componentDidMount() {
-		fetch('https://jsonplaceholder.typicode.com/users')
+		fetch('https://api.github.com/users/christiandahlberg/followers')
 			.then(response => response.json())
 			.then(users => this.setState({ robots: users }))
 	}
@@ -31,7 +28,7 @@ class App extends React.Component {
 	render() {
 		const { robots, searchfield } = this.state;
 		const filteredRobots = robots.filter(robot => {
-			return robot.name.toLowerCase().includes(searchfield.toLowerCase())
+			return robot.login.toLowerCase().includes(searchfield.toLowerCase())
 		})
 
 		return (
