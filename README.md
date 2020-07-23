@@ -1,9 +1,9 @@
 ## Robofriends
 
-This application will (when finished) pull data through <chosen API> and show a robotified version of your <friends, colleagues, followers, etc>. 
-When clicking on each card, more information will show regarding that person depending on chosen API or plattform the information was taken from.
-  
-PROJECT IS STILL UNDER DEVELOPMENT (Currently using a placeholder API to get fake people)
+This application will (when finished) pull data through the GitHub API and show a robotified version of your followers. 
+When clicking on each card, more information will show regarding that follower; repositories, followers, stars, friends and so on, with the functionality to visit their GitHub page.
+
+* Currently under heavy development.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
